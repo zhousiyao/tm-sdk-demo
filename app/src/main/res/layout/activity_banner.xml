@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_666666"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:background="@color/color_FFFFFF"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:hint="Appkey"
+                    android:id="@+id/editAppkey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:hint="AppSecret"
+                    android:id="@+id/editAppSecret"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:hint="广告id"
+                    android:id="@+id/editAdSlotid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnRequest"
+                    android:text="点击修改同时请求广告"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <com.lechuan.midunovel.view.FoxStreamerView
+                android:id="@+id/TMBrView_700_280"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                tools:fox_width="700"
+                tools:fox_height="280"
+                tools:fox_size="foxBr" />
+
+            <com.lechuan.midunovel.view.FoxStreamerView
+                android:id="@+id/TMBrView_640_150"
+                android:layout_marginTop="20dp"
+                android:layout_width="320dp"
+                android:layout_height="75dp"
+                tools:fox_width="640"
+                tools:fox_height="150"
+                tools:fox_size="foxBr" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

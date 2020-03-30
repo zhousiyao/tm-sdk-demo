@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/nsButtonTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="left|center_vertical"
+                android:text="测试工具"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/sTMSplashButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:text="开屏-720*1280" />
+
+            <Button
+                android:id="@+id/sTMSplash2Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:text="开屏-640*960" />
+
+            <Button
+                android:id="@+id/sTMInfoButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:text="信息流-225*140-700*280" />
+
+            <Button
+                android:id="@+id/TMItButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="left|center_vertical"
+                android:text="插屏-510*510" />
+
+            <Button
+                android:id="@+id/TMBrButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="left|center_vertical"
+                android:text="Banner-700*280-640*150" />
+
+            <Button
+                android:id="@+id/floatButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="left|center_vertical"
+                android:text="浮标-120*120-100*100" />
+
+            <Button
+                android:id="@+id/nsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="left|center_vertical"
+                android:text="自定义" />
+
+            <Button
+                android:id="@+id/nsButtonCP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="left|center_vertical"
+                android:text="原生插屏-1081插屏-直接加载" />
+
+            <Button
+                android:id="@+id/nsButtonCP2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="left|center_vertical"
+                android:text="原生插屏-1081插屏-素材使用" />
+
+            <View
+                android:background="@color/color_666666"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/nsButtonCP3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="原生插屏-325613-嵌入式" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

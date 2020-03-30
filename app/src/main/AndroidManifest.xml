@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.commonly.undertone">
+
+    <application
+        android:name=".SdkApplication"
+        android:appComponentFactory="1"
+        android:icon="@mipmap/ic_launcher"
+        android:label="tuia-online"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:label,android:appComponentFactory">
+
+
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+        </activity>
+        <activity android:name=".SbannerActivity" />
+        <activity android:name=".BannerActivity" />
+        <activity android:name=".InterstitialActivity" />
+        <activity android:name=".AppWallActivity" />
+        <activity android:name=".DobberActivity" />
+        <activity android:name=".MainActivity"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NonStandarActivity" />
+        <activity android:name=".NativeAdActivity" />
+        <activity android:name=".NativeInterstitialActivity" />
+        <activity android:name=".NativeInterstitial2Activity" />
+        <activity android:name=".NativeInterstitial3Activity" />
+        <activity android:name=".DemoActivity" />
+        <activity android:name=".TestToolActivity" />
+    </application>
+
+</manifest>

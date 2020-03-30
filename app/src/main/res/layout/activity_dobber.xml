@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_ffffff"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editAppkey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Appkey" />
+
+        <EditText
+            android:id="@+id/editAppSecret"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="AppSecret" />
+
+        <EditText
+            android:id="@+id/editAdSlotid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="广告id" />
+
+        <Button
+            android:id="@+id/btnRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击修改同时请求广告" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.lechuan.midunovel.view.FoxWallView
+                android:id="@+id/TMAw1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                tools:wall_shape="square" />
+
+            <com.lechuan.midunovel.view.FoxWallView
+                android:id="@+id/TMAw2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                tools:wall_shape="square" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
