@@ -130,7 +130,7 @@ public class SplashActivity extends Activity implements View.OnClickListener, Fo
 
     @Override
     public void onAdActivityClose(String data) {
-
+        jumpMain();
     }
 }
 
