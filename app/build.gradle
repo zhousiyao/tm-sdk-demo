@@ -29,7 +29,7 @@ android {
         abortOnError false
     }
     signingConfigs {
-        tuia {
+        tmSDK {
             keyAlias 'tmSdkAlias'
             keyPassword 'tmsdk2020'
             storeFile file('./tmSDK.jks')
@@ -44,7 +44,7 @@ android {
             zipAlignEnabled false
             debuggable true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.tuia
+            signingConfig signingConfigs.tmSDK
         }
 
         release {
@@ -52,7 +52,7 @@ android {
             zipAlignEnabled true
             debuggable false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.tuia
+            signingConfig signingConfigs.tmSDK
         }
     }
 
