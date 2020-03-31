@@ -7,7 +7,7 @@
         android:name=".SdkApplication"
         android:appComponentFactory="1"
         android:icon="@mipmap/ic_launcher"
-        android:label="tuia-online"
+        android:label="tmSDK"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
