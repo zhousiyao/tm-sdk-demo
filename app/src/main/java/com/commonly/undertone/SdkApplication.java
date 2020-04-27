@@ -11,7 +11,7 @@ public class SdkApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        ProSDK.init(this);
+        ProSDK.init(this,"4UycwwZv41rwzne1ZXgtQBgDSnPH","3WpyTLfifQyGhvgivxtUjvzXxtkzdceETBU2n5g");
     }
 
     @Override

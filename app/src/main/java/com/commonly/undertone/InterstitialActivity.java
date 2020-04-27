@@ -6,10 +6,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.lechuan.midunovel.base.util.FoxBaseCommonUtils;
-import com.lechuan.midunovel.base.util.FoxBaseToastUtils;
-import com.lechuan.midunovel.view.FoxListener;
-import com.lechuan.midunovel.view.FoxTbScreen;
+import com.lechuan.android.base.util.FoxBaseCommonUtils;
+import com.lechuan.android.base.util.FoxBaseToastUtils;
+import com.lechuan.android.view.FoxListener;
+import com.lechuan.android.view.FoxTbScreen;
 
 
 public class InterstitialActivity extends BaseActivity implements FoxListener {

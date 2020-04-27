@@ -10,10 +10,10 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.lechuan.midunovel.base.util.FoxBaseCommonUtils;
-import com.lechuan.midunovel.view.holder.FoxNativeAdHelper;
-import com.lechuan.midunovel.view.holder.FoxNativeSplashHolder;
-import com.lechuan.midunovel.view.holder.FoxSplashAd;
+import com.lechuan.android.base.util.FoxBaseCommonUtils;
+import com.lechuan.android.view.holder.FoxNativeAdHelper;
+import com.lechuan.android.view.holder.FoxNativeSplashHolder;
+import com.lechuan.android.view.holder.FoxSplashAd;
 
 public class SplashActivity extends Activity implements View.OnClickListener, FoxNativeSplashHolder.LoadSplashAdListener {
 

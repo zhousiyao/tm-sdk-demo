@@ -10,14 +10,14 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.lechuan.midunovel.base.util.FoxBaseCommonUtils;
-import com.lechuan.midunovel.base.util.FoxBaseGsonUtil;
-import com.lechuan.midunovel.base.util.FoxBaseToastUtils;
-import com.lechuan.midunovel.nativead.Ad;
-import com.lechuan.midunovel.nativead.DefaultAdCallBack;
-import com.lechuan.midunovel.nativead.bean.AdResponseBean;
+import com.lechuan.android.base.util.FoxBaseCommonUtils;
+import com.lechuan.android.base.util.FoxBaseGsonUtil;
+import com.lechuan.android.base.util.FoxBaseToastUtils;
+import com.lechuan.android.nativead.Ad;
+import com.lechuan.android.nativead.DefaultAdCallBack;
+import com.lechuan.android.nativead.bean.AdResponseBean;
 
-import static com.lechuan.midunovel.nativead.Ad.AD_NEW_LOADING_HIDE;
+import static com.lechuan.android.nativead.Ad.AD_NEW_LOADING_HIDE;
 
 
 public class NativeInterstitial2Activity extends BaseActivity {

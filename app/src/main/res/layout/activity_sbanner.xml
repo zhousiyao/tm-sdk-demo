@@ -37,7 +37,7 @@
 
     </LinearLayout>
 
-    <com.lechuan.midunovel.view.FoxStreamerView
+    <com.lechuan.android.view.FoxStreamerView
         android:id="@+id/TMBrView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

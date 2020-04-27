@@ -43,13 +43,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <com.lechuan.midunovel.view.FoxWallView
+            <com.lechuan.android.view.FoxWallView
                 android:id="@+id/TMAw1"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 tools:wall_shape="square" />
 
-            <com.lechuan.midunovel.view.FoxWallView
+            <com.lechuan.android.view.FoxWallView
                 android:id="@+id/TMAw2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"

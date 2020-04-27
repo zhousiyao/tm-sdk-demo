@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.lechuan.midunovel.view.FoxSDK;
+import com.lechuan.android.view.FoxSDK;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -9,13 +9,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 
-import com.lechuan.midunovel.base.util.FoxBaseCommonUtils;
-import com.lechuan.midunovel.nativead.Ad;
-import com.lechuan.midunovel.nativead.AdCallBack;
+import com.lechuan.android.base.util.FoxBaseCommonUtils;
+import com.lechuan.android.nativead.Ad;
+import com.lechuan.android.nativead.AdCallBack;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import static com.lechuan.midunovel.nativead.Ad.AD_NEW_LOADING_HIDE;
+import static com.lechuan.android.nativead.Ad.AD_NEW_LOADING_HIDE;
 
 public class NativeInterstitial3Activity extends AppCompatActivity {
 
