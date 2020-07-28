@@ -3,8 +3,8 @@ package com.commonly.undertone;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.lechuan.android.view.FoxListener;
-import com.lechuan.android.view.FoxWallView;
+import com.lechuan.midunovel.view.FoxListener;
+import com.lechuan.midunovel.view.FoxWallView;
 
 
 public class AppWallActivity extends BaseActivity {

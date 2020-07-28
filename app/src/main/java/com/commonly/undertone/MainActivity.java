@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.nsButtonCP).setOnClickListener(this);
         findViewById(R.id.nsButtonCP2).setOnClickListener(this);
         findViewById(R.id.nsButtonCP3).setOnClickListener(this);
+        findViewById(R.id.textLinkButton).setOnClickListener(this);
         final Button nsButtonTest = findViewById(R.id.nsButtonTest);
         nsButtonTest.setOnClickListener(this);
     }
@@ -74,14 +75,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case R.id.sTMInfoButton:
-                //信息流 线上 330489  测试 283553
-                intent = new Intent(this, NativeAdActivity.class);
-                if (BuildConfig.BUILD_TYPE.contains("envTest")) {
-                    intent.putExtra("slotId", 283693);
-                } else {
-                    intent.putExtra("slotId", 331034);
-                    intent.putExtra("slotId2", 331035);
-                }
+                //信息流
+                intent = new Intent(this, TempletFeedListActivity.class);
+                intent.putExtra("slotId", 331035);
                 break;
             case R.id.TMBrButton:
                 //Banner 线上 323778  测试 283554
@@ -111,6 +107,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     intent.putExtra("slotId", 330492);
                     intent.putExtra("slotId2", 330494);
                 }
+                break;
+            case R.id.textLinkButton:
+                //文字链
+                intent = new Intent(this, TextLinkAdActivity.class);
+                intent.putExtra("slotId", 347174);
                 break;
             case R.id.nsButton:
                 //自定义 323807 正式  测试 283557

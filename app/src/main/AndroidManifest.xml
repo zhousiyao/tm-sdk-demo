@@ -40,6 +40,8 @@
         <activity android:name=".NativeInterstitial3Activity" />
         <activity android:name=".DemoActivity" />
         <activity android:name=".TestToolActivity" />
+        <activity android:name=".TempletFeedListActivity" />
+        <activity android:name=".TextLinkAdActivity" />
     </application>
 
 </manifest>

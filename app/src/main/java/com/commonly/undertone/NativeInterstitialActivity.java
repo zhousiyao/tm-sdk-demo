@@ -7,12 +7,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.lechuan.android.base.util.FoxBaseCommonUtils;
-import com.lechuan.android.nativead.Ad;
-import com.lechuan.android.nativead.DefaultAdCallBack;
-import com.lechuan.android.nativead.bean.AdResponseBean;
+import com.lechuan.midunovel.base.util.FoxBaseCommonUtils;
+import com.lechuan.midunovel.nativead.Ad;
+import com.lechuan.midunovel.nativead.DefaultAdCallBack;
+import com.lechuan.midunovel.nativead.bean.AdResponseBean;
 
-import static com.lechuan.android.nativead.Ad.AD_NEW_LOADING_HIDE;
+import static com.lechuan.midunovel.nativead.Ad.AD_NEW_LOADING_HIDE;
+
 
 public class NativeInterstitialActivity extends BaseActivity{
 

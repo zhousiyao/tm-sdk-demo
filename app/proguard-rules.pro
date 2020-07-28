@@ -20,8 +20,8 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 -ignorewarnings
--dontwarn com.lechuan.android.**
--keep class com.lechuan.android.** { *; }
+-dontwarn com.lechuan.midunovel.**
+-keep class com.lechuan.midunovel.** { *; }
 
 -keep public class * implements com.bumptech.glide.module.GlideModule
 -keep public class * extends com.bumptech.glide.module.AppGlideModule

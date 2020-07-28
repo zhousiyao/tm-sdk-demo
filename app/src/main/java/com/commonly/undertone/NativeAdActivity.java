@@ -6,11 +6,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
-import com.lechuan.android.base.util.FoxBaseCommonUtils;
-import com.lechuan.android.view.FoxInfoStreamView;
-import com.lechuan.android.view.holder.FoxInfoAd;
-import com.lechuan.android.view.holder.FoxNativeAdHelper;
-import com.lechuan.android.view.holder.FoxNativeInfoHolder;
+import com.lechuan.midunovel.base.util.FoxBaseCommonUtils;
+import com.lechuan.midunovel.view.FoxInfoStreamView;
+import com.lechuan.midunovel.view.holder.FoxInfoAd;
+import com.lechuan.midunovel.view.holder.FoxNativeAdHelper;
+import com.lechuan.midunovel.view.holder.FoxNativeInfoHolder;
 
 
 public class NativeAdActivity extends BaseActivity implements FoxNativeInfoHolder.LoadInfoAdListener, View.OnClickListener {

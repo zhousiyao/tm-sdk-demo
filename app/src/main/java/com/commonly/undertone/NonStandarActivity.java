@@ -8,12 +8,13 @@ import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.lechuan.android.base.util.FoxBaseCommonUtils;
-import com.lechuan.android.base.util.FoxBaseToastUtils;
-import com.lechuan.android.view.FoxCustomerTm;
-import com.lechuan.android.view.FoxNsTmListener;
-import com.lechuan.android.view.video.bean.FoxResponseBean;
-import com.lechuan.android.view.video.utils.FoxGsonUtil;
+import com.lechuan.midunovel.base.util.FoxBaseCommonUtils;
+import com.lechuan.midunovel.base.util.FoxBaseToastUtils;
+import com.lechuan.midunovel.view.FoxCustomerTm;
+import com.lechuan.midunovel.view.FoxNsTmListener;
+import com.lechuan.midunovel.view.video.bean.FoxResponseBean;
+import com.lechuan.midunovel.view.video.utils.FoxGsonUtil;
+
 
 public class NonStandarActivity extends BaseActivity implements FoxNsTmListener {
     private FoxCustomerTm mOxCustomerTm;

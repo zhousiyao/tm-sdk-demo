@@ -41,7 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="left|center_vertical"
-                android:text="信息流-225*140-700*280" />
+                android:text="信息流" />
 
             <Button
                 android:id="@+id/TMItButton"
@@ -66,6 +66,13 @@
                 android:layout_marginTop="8dp"
                 android:gravity="left|center_vertical"
                 android:text="浮标-120*120-100*100" />
+            <Button
+                android:id="@+id/textLinkButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="left|center_vertical"
+                android:text="文字链" />
 
             <Button
                 android:id="@+id/nsButton"
