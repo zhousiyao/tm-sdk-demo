@@ -6,7 +6,7 @@
     android:orientation="vertical"
     tools:context="com.lechuan.midu.demo.InfoStreamActivity">
 
-    <com.lechuan.android.view.FoxInfoStreamView
+    <com.lechuan.midunovel.view.FoxInfoStreamView
         android:id="@+id/info1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
